@@ -10,6 +10,17 @@ const CONTACTS = () => {
         setFadeIn(true);
     }, []);
 
+    const handleEmailButtonClick = () => {
+        const emailAddress = 'youremail@example.com';
+
+        const subject = 'Hello from My Portfolio';
+        const body = 'Hi there, I found your portfolio and wanted to reach out.';
+
+        const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.location.href = mailtoLink;
+    };
+
+
     return ( 
         <div className={`CONTACTS ${fadeIn ? 'fade-in' : ''}`}>
             <div className="content-background col">
@@ -24,7 +35,11 @@ const CONTACTS = () => {
 
                     </div>
 
-                    <form className="col half-space" action="">
+                    <div className='email-btn col'>
+                        <button onClick={handleEmailButtonClick}>Click To Mail Me</button>
+                    </div>
+
+                    {/* <form className="col half-space" action="">
                         <div className='row'>
                             <input type="text" name="name" placeholder='Name'/>
                         <input type="text" name="name" placeholder='Email'/>
@@ -36,7 +51,7 @@ const CONTACTS = () => {
                         
 
                         <input className='submit' type="submit" name='submit' value="submit"/>
-                    </form>
+                    </form> */}
                 </div>
             </div>
         </div>

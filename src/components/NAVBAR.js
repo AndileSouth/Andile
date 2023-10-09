@@ -9,11 +9,9 @@ const NAVBAR = () => {
         const large = document.querySelector('.side-nav-lg');
         const SIDENAV = document.querySelector('.SIDENAV');
         const backBtn = document.querySelector('.back');
-
-        const styleMd = window.getComputedStyle(medium);
+        
         const stylelg = window.getComputedStyle(large);
-
-        const displayMd = styleMd.getPropertyValue('display');
+        
         const displaylg = stylelg.getPropertyValue('display');
 
         if(displaylg === 'none') {
