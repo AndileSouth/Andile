@@ -11,10 +11,10 @@ const CONTACTS = () => {
     }, []);
 
     const handleEmailButtonClick = () => {
-        const emailAddress = 'youremail@example.com';
+        const emailAddress = 'andilezondo555@gmail.com';
 
-        const subject = 'Hello from My Portfolio';
-        const body = 'Hi there, I found your portfolio and wanted to reach out.';
+        const subject = 'Job Inquiry: Front-End Developer Position';
+        const body = 'Hi, I found your portfolio and I am interested in discussing a front-end developer position..';
 
         const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         window.location.href = mailtoLink;
