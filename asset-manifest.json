@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Andile/static/css/main.603c099d.css",
-    "main.js": "/Andile/static/js/main.fa0ea5ce.js",
+    "main.js": "/Andile/static/js/main.511fa1ae.js",
     "static/js/787.1ed0c42c.chunk.js": "/Andile/static/js/787.1ed0c42c.chunk.js",
     "static/media/Opera Snapshot_2023-10-09_090551_andilesouth.github.io.png": "/Andile/static/media/Opera Snapshot_2023-10-09_090551_andilesouth.github.io.693ab7fc4ef491a44a0e.png",
     "static/media/Opera Snapshot_2023-08-23_101452_andilesouth.github.io.png": "/Andile/static/media/Opera Snapshot_2023-08-23_101452_andilesouth.github.io.3914d7954e1698cbe144.png",
     "static/media/logo.svg": "/Andile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Andile/index.html",
     "main.603c099d.css.map": "/Andile/static/css/main.603c099d.css.map",
-    "main.fa0ea5ce.js.map": "/Andile/static/js/main.fa0ea5ce.js.map",
+    "main.511fa1ae.js.map": "/Andile/static/js/main.511fa1ae.js.map",
     "787.1ed0c42c.chunk.js.map": "/Andile/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.603c099d.css",
-    "static/js/main.fa0ea5ce.js"
+    "static/js/main.511fa1ae.js"
   ]
 }
