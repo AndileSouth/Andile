@@ -35,7 +35,7 @@ const NAVBAR = () => {
         <div className="NAVBAR">
             <div className="navbar-content row">
                 <div className="brand">
-                   <h2><Link to={`/`}>ANDILE ZONDO</Link></h2> 
+                   <h2><Link to={`/Andile`}>ANDILE ZONDO</Link></h2> 
                 </div>
 
                 <div className="nav-items row nav-md">

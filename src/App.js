@@ -17,7 +17,7 @@ function App() {
       <NAVBAR/>
       <SIDENAV/>
       <Routes>
-        <Route exact path="/" element={<HOME/>}/>
+        <Route exact path="/Andile" element={<HOME/>}/>
         <Route path="/ABOUT" element={<ABOUT/>}/>
         <Route path="/SKILLS" element={<SKILLS/>}/>
         <Route path="/PROJECTS" element={<PROJECTS/>}/>
