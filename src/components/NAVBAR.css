@@ -1,0 +1,77 @@
+.navbar-content {
+    height: 50px;
+    width: calc(100vw - 20px);
+    margin: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--font-1);
+    background-color: var(--background-1);
+}
+
+.brand h2 {
+    font-weight: 800;
+    margin-left: 20px;
+    color: var(--background-4);
+}
+
+.nav-items {
+    gap: 30px;
+    align-items: center;
+    font-size: small;
+    font-weight: 600;
+}
+
+.nav-items .div {
+    padding: 5px;
+}
+
+.nav-items div:hover {
+    color: var(--background-4);
+    
+}
+.github {
+    font-size: 35px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-btn {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .nav-md {
+        display: none;
+    }
+
+    .menu-btn {
+        display: inline;
+    }
+
+    .github {
+        font-size: larger;
+    }
+
+    .brand h2 {
+        font-size: larger;
+        margin-left: 5px;
+    }
+    .github {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-md {
+        display: none;
+    }
+    .menu-btn {
+        display: inline;
+    }
+
+    .github {
+        gap: 15px;
+    }
+}

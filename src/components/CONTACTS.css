@@ -1,0 +1,80 @@
+.CONTACTS {
+    margin-top: 50px;
+}
+
+.inside-content {
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.half-space {
+    flex: 1;
+}
+
+.CONTACTS form {
+    margin-top: 5px;
+    gap: 10px;
+}
+
+input , textarea {
+    outline: none;
+    border: none;
+    background-color: var(--background-2);
+    padding: 10px;
+}
+
+.CONTACTS form .row {
+    margin-top: 5px;
+    gap: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.CONTACTS form .row  input{
+    flex: 1;
+    height: 30px;
+    
+}
+
+form .submit {
+    width: 60px;
+    padding: 5px 10px;
+}
+
+.textarea {
+    resize: none;
+    height: 150px;
+    background-color: var(--background-2);
+}
+
+textarea {
+   flex: 1;
+   resize: none;
+   min-height: 100%;
+   min-width: 100%;
+   padding-bottom: 5px;
+}
+
+/* Add a CSS class for the fade-in animation */
+.CONTACTS.fade-in {
+    opacity: 0; /* Start with opacity at 0 */
+    animation: fadeIn 1s ease-in-out forwards; /* Animation properties */
+  }
+  
+  /* Define the animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Add a subtle vertical translation */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+@media screen and (max-width:988px) {
+    .inside-content {
+        flex-direction: column;
+    }
+}

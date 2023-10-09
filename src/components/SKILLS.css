@@ -1,0 +1,62 @@
+.SKILLS {
+    margin-top: 50px;
+}
+
+.SKILLS .content-background {
+    width: 70vw;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: var(--background-5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.349);
+    padding-bottom: 30px;
+}
+
+
+.SKILLS .content-background h2{
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.SKILLS ul li {
+    list-style: none;
+}
+
+.SKILLS .skills-section {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+
+/* Add a CSS class for the fade-in animation */
+.SKILLS.fade-in {
+    opacity: 0; /* Start with opacity at 0 */
+    animation: fadeIn 1s ease-in-out forwards; /* Animation properties */
+  }
+  
+  /* Define the animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Add a subtle vertical translation */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+@media screen and (max-width:576px) {
+   .SKILLS .content-background {
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+   .SKILLS .content-background {
+        width: 85vw;
+    }
+}
+
