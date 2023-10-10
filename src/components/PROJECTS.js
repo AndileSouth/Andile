@@ -35,14 +35,15 @@ const PROJECTS = () => {
 
                 <div className='project row'>
                     <div className="project-img img-container">
-                        <img src={IMAGES.ActivityApp} alt="" />
+                        <img src={IMAGES.DadJokeGenerator} alt="" />
                     </div>
                     <div className="project-details">
                         <div className="title col">
-                           <h2>2. Shopping cart</h2> 
+                           <h2>Dad joke generator</h2> 
                            <p className='overview'>Overview</p>
-                           <p className='langueges-used'>languages used: Css,Javascript and React.js</p>
-                           <p>Creating a Shopping Cart App using React has been a foundational project in my journey as a web developer. This project is not only basic but also incredibly valuable in terms of learning fundamental programming concepts and web development skills.</p>
+                           <p className='langueges-used'>languages used: Html,Css and Javascript</p>
+
+                           <p>Dad Joke Generator project that leverages the power of APIs to deliver endless laughs. This endeavor was an invaluable learning experience, equipping me with the skills to seamlessly interface with APIs and craft data into visually appealing and user-friendly features. Through this project, I honed my abilities to retrieve and manipulate data, resulting in a delightful and entertaining tool that brings joy to users one dad joke at a time.</p>
                         </div>
                     </div>
                 </div>

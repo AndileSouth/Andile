@@ -105,6 +105,10 @@
         width: 85vw;
         
     }
+
+    .screen-md {
+        display: none;
+    }
     
   }
 

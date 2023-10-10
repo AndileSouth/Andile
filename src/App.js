@@ -12,10 +12,13 @@ import CONTACTS from './components/CONTACTS';
 
 
 function App() {
+
+  
   return (
     <div className="App">
       <NAVBAR/>
       <SIDENAV/>
+      
       <Routes>
         <Route exact path="/Andile" element={<HOME/>}/>
         <Route path="/ABOUT" element={<ABOUT/>}/>
@@ -23,6 +26,8 @@ function App() {
         <Route path="/PROJECTS" element={<PROJECTS/>}/>
         <Route path="/CONTACTS" element={<CONTACTS/>}/>
       </Routes>
+      
+      
     </div>
   );
 }

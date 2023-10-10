@@ -1,5 +1,7 @@
 import './HOME.css';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import IMAGES from './img/images';
 
 const HOME = () => {
 
@@ -40,12 +42,20 @@ const HOME = () => {
 
                     </div>
 
+                    <Link to={`/PROJECTS`}>
                     <div className="projects-section row">
-                        <div className='cursor'></div>
-                        <div className='cursor'></div>
-                        <div className='cursor'></div>
-                    </div>
                     
+                        <div className='cursor img-container'>
+                            <img src={IMAGES.ActivityApp} alt="" />
+                        </div>
+                        <div className='cursor img-container'>
+                            <img src={IMAGES.iEventFinder} alt="" />
+                        </div>
+                        <div className='cursor screen-md img-container'>
+                        <img src={IMAGES.DadJokeGenerator} alt="" />
+                        </div>
+                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
